@@ -1,0 +1,62 @@
+[
+    {
+        "name": "John-Paul Day",
+        "position": "Nurse",
+        "phoneNo": "(416) 113-4567",
+        "shift": "Night"
+    },
+    {
+        "name": "Ewen Wilson",
+        "position": "Doctor",
+        "phoneNo": "(341) 125-4567",
+        "shift": "Night"
+    },
+    {
+        "name": "Ubaid Noble",
+        "position": "Custodian",
+        "phoneNo": "(131) 123-1463",
+        "shift": "Day"
+    },
+    {
+        "name": "Efa Werner",
+        "position": "Doctor",
+        "phoneNo": "(841) 123-2637",
+        "shift": "Night"
+    },
+    {
+        "name": "Daniele Peters",
+        "position": "Nurse",
+        "phoneNo": "(921) 423-8653",
+        "shift": "Day"
+    },
+    {
+        "name": "Sania Edge",
+        "position": "Custodian",
+        "phoneNo": "(371) 723-4567",
+        "shift": "Night"
+    },
+    {
+        "name": "Bear Leblanc",
+        "position": "Doctor",
+        "phoneNo": "(616) 123-7574",
+        "shift": "Day"
+    },
+    {
+        "name": "Sumayya Macdonald",
+        "position": "Nurse",
+        "phoneNo": "(614) 123-1245",
+        "shift": "Night"
+    },
+    {
+        "name": "Taylan Wilde",
+        "position": "Custodian",
+        "phoneNo": "(213) 123-5234",
+        "shift": "Day"
+    },
+    {
+        "name": "Paul-John Night",
+        "position": "Doctor",
+        "phoneNo": "(312) 123-6745",
+        "shift": "Day"
+    }
+]

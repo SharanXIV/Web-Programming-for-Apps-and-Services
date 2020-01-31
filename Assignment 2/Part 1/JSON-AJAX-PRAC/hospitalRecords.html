@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hospital Employee Records</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<body>
+    <h1>Hospital Employee Records</h1>
+
+    <!-- Image table aligned to the right -->
+    <table border=0 bordercolor=white align=right>
+        <tr>
+            <td><img src="./hospital1.jpg" height="280" width="420"></td>
+        </tr>
+        <tr>
+            <td><img src="./hospital2.jpg" height="280" width="420"></td>
+        </tr>
+        <tr>
+            <td><img src="./hospital3.jpg" height="280" width="420"></td>
+        </tr>
+        <tr>
+            <td><img src="./hospital4.jpg" height="280" width="420"></td>
+        </tr>
+    </table>
+
+
+    <button type="button">Get Employee Records</button>
+    <br><br>
+    <table id="demo" align="left">
+    </table>
+
+    <!-- AJAX code in HTML -->
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $.getJSON("hospitalRecords.json", function (data) {
+                    $('#demo').empty();
+                    var employeeData = '<tr><th>Name</th><th>Position</th><th>Phone Number</th><th>Shift</th></tr>';
+                    $.each(data, function (key, value) {
+                        employeeData += '<tr>';
+                        employeeData += '<td>' + value.name + '</td>';
+                        employeeData += '<td>' + value.position + '</td>';
+                        employeeData += '<td>' + value.phoneNo + '</td>';
+                        employeeData += '<td>' + value.shift + '</td>';
+                        employeeData += '</tr>';
+                    })
+                    $('#demo').append(employeeData);
+                });
+            })
+        });
+    </script>
+</body>
+
+</html>

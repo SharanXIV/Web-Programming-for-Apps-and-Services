@@ -1,0 +1,71 @@
+<CONTACTINFO>
+    <EMPLOYEE>
+        <NAME>John-Paul Day</NAME>
+        <POSITION>Nurse</POSITION>
+        <PHONE>(416) 113-4567</PHONE>
+        <SHIFT>Night</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Ewen Wilson</NAME>
+        <POSITION>Doctor</POSITION>
+        <PHONE>(341) 125-4567</PHONE>
+        <SHIFT>Night</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Ubaid Noble</NAME>
+        <POSITION>Custodian</POSITION>
+        <PHONE>(131) 123-1463</PHONE>
+        <SHIFT>Day</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Efa Werner</NAME>
+        <POSITION>Doctor</POSITION>
+        <PHONE>(841) 123-2637</PHONE>
+        <SHIFT>Night</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Daniele Peters</NAME>
+        <POSITION>Nurse</POSITION>
+        <PHONE>(921) 423-8653</PHONE>
+        <SHIFT>Day</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Sania Edge</NAME>
+        <POSITION>Custodian</POSITION>
+        <PHONE>(371) 723-4567</PHONE>
+        <SHIFT>Night</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Bear Leblanc</NAME>
+        <POSITION>Doctor</POSITION>
+        <PHONE>(616) 123-7574</PHONE>
+        <SHIFT>Day</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Sumayya Macdonald</NAME>
+        <POSITION>Nurse</POSITION>
+        <PHONE>(614) 123-1245</PHONE>
+        <SHIFT>Night</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Taylan Wilde</NAME>
+        <POSITION>Custodian</POSITION>
+        <PHONE>(213) 123-5234</PHONE>
+        <SHIFT>Day</SHIFT>
+    </EMPLOYEE>
+
+    <EMPLOYEE>
+        <NAME>Paul-John Night</NAME>
+        <POSITION>Doctor</POSITION>
+        <PHONE>(312) 123-6745</PHONE>
+        <SHIFT>Day</SHIFT>
+    </EMPLOYEE>
+</CONTACTINFO>
